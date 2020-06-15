@@ -1,0 +1,887 @@
+@import url(https://fonts.googleapis.com/earlyaccess/notosanstc.css);
+
+*{
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+/*   border: solid 1px red; */
+}
+
+body{
+  height:16200px;
+}
+img{
+  position:fixed;
+  top:750px;
+  left:1650px;
+width: 80px;
+height: 80px;
+z-index:3;
+  opacity:0.5;
+}
+#div9{
+  position:absolute;
+  top:0px;
+}
+
+.bg{
+  position:fixed;
+  width:100%;
+  height:130px;
+  z-index:3;
+  background: white;
+}
+h1{
+  position: fixed;
+  left: 750px;
+  top: 0;
+  font-size: 50px;
+  font-family: 'Cinzel', serif;
+  z-index:3;
+}
+ul.box{
+  position: fixed;
+  height:50px;
+  top:80px;
+  width: 100%;
+  z-index:3;
+  background: white;
+  border:solid;
+  border-width: 0 0 3px 0;
+}
+ul.box li{
+  position:relative;
+  float: left;
+  list-style:none;
+}
+ul.box li a{
+  display: block;
+  padding:12px 20px;
+  background: white;
+  color:black;
+  text-decoration:none;
+}
+ul.box >li>a{
+  border-bottom:1px solid #e8ebe6;
+  border-left:1px solid #e8ebe6;
+}
+ul.box >li >a:hover{
+  color:black;
+  background: #f5f5f5;
+}
+ul.box li a:hover{
+  color:black;
+  background: #f5f5f5;
+}
+ul.box li ul{
+  display: none;
+  float: left;
+  position: absolute;
+  margin:0;
+  padding:0;
+}
+ul.box li:hover >ul{
+  display: block;
+}
+ul.box ul a{
+  width:210px;
+  padding:10px 12px;
+  color:#aaaba9;
+  background: #fff6c9;
+}
+ul.box ul a:hover{
+  background: #fae7a7;
+}
+ul.box ul li:hover > ul{
+  display:block;
+  position:absolute;
+  top:0;
+  left:100px;
+}
+a{
+  font-family:微軟正黑體;
+  font-weight: 700px;
+  font-size: 30px;
+  color: black;
+  margin:  0 100px;
+  text-decoration:none;
+  z-index:3;
+}
+h2{
+  position: fixed;
+  top:62px;
+  left: 270px;
+}
+.photo{
+  position: absolute;
+  background-image:url("https://i.pinimg.com/originals/a0/34/40/a0344020b6ce4574ec1f9a7a9fcd28dd.jpg");
+  height:800px;
+  width:100%;
+  top: 50px;
+   background-position:center;
+  background-size: 100% ;
+  animation-name:photo;
+  animation-duration: 3s;
+}
+@keyframes photo{
+  0%{
+    opacity:0;
+  }
+  100%{
+    opacity:1.0;
+  }
+}
+.jpg{
+  height:400px;
+  width:400px;
+  position:absolute;
+  background-size:100%;
+  background-position: center;
+}
+#div1{
+  position: absolute;
+  top: 730px;
+  left:50px;
+}
+.one{
+  position:absolute;
+  top:880px;
+  left:300px;
+  width:70%;
+  height: 700px;
+}
+.title1{
+ position:absolute;
+  font-size:30px;
+  font-family:微軟正黑體;
+  font-weight:bold;
+}
+.introduction{
+   border:solid;
+  border-width:3px 0 3px 0;
+  border-color:black;
+  position:absolute;
+  top:50px;
+   position:absolute;
+  height:600px;
+  width:700px;
+   font-family: 'Noto Sans TC', sans-serif;
+  line-height:3;
+  font-size:20px;
+}
+.ironthrone{
+  position:absolute;
+  top:50px;
+  left:800px;
+  width:500px;
+  height:600px;
+  background-image:url("https://cdn.vox-cdn.com/thumbor/VaZcEkMwa64WcNv2Y1q9pBFaOW4=/0x0:1920x1200/1400x1050/filters:focal(807x447:1113x753):no_upscale()/cdn.vox-cdn.com/uploads/chorus_image/image/63863964/game-of-thrones-poster_85627-1920x1200.0.jpg");
+  background-size:160%;
+  background-position:center;
+}
+#div2{
+  position: absolute;
+  top:1450px;
+}
+#div4{
+  position:absolute;
+  top:6610px;
+}
+#div5{
+  position:absolute;
+  top:9900px;
+}
+#div6{
+  position:absolute;
+  top:11600px;
+}
+#div7{
+  position:absolute;
+  top:13350px;
+}
+#div8{
+  position:absolute;
+  top:14250px;
+}
+.family{
+  position:absolute;
+  top:1630px;
+  width:100%;
+  height:600px;
+  background-image:url("https://nerderyhub.com/wp-content/uploads/2019/04/House-Sigils_1600x.jpg");
+  background-position:center;
+  background-size:100%;
+}
+.two{
+  position:absolute;
+  top:2280px;
+  left:300px;
+  width:70%;
+  height: 700px;
+}
+.title2{
+  position:absolute;
+  font-size:30px;
+  font-family:微軟正黑體;
+  font-weight:bold;
+}
+.la{
+  font-size: 24px;
+  line-height: 3;
+  font-weight:500;
+}
+.house{
+   border:solid;
+  border-width: 5px 0 0 0;
+   position:absolute;
+  height:400px;
+  width:700px; 
+   font-family: 'Noto Sans TC', sans-serif;
+  line-height:3;
+  font-size:20px;
+}
+.lannister{
+  border-color:gold;
+  top: 50px;
+  left: 50px;
+}
+.jpg.lion{
+  top:50px;
+  left: 800px;
+  background-image: url("https://pic.pimg.tw/demona/1314692564-2196438320.jpg");
+}
+.stark{
+  top:450px;
+  left:50px;
+  border-color:silver;
+}
+.jpg.wolf{
+  top:450px;
+  left:800px;
+  background-image: url("https://hips.hearstapps.com/hbztw.h-cdn.co/assets/17/16/1600x800/landscape-1492518269-wallpaper-stark-1600.jpg?resize=480:*");
+  background-size:180%;
+}
+.baratheon{
+  top:850px;
+  left:50px;
+  border-color: yellow;
+}
+.jpg.deer{
+  top:850px;
+  left: 800px;
+  background-image: url("https://pic.pimg.tw/demona/1334678344-679083967.jpg");
+}
+.targaryen{
+  top: 1250px;
+  left: 50px;
+  border-color: darkred;
+}
+.jpg.dragon{
+  top:1250px;
+  left: 800px;
+  background-image:url("https://pic.pimg.tw/demona/1314692623-1220173315.jpg");
+}
+.arryn{
+  top:1650px;
+  left: 50px;
+  border-color: darkblue;
+}
+.jpg.eagle{
+  top:1650px;
+  left: 800px;
+  background-image: url("https://pic.pimg.tw/ora810/1314531819-ee429908a5904aa8af39bd2bfc3ec0a5_n.jpg");
+  background-size:170%;
+}
+.tully{
+  top:2050px;
+  left:50px;
+  border-color: #07155e;
+}
+.jpg.fish{
+  top:2050px;
+  left: 800px;
+  background-image:url("http://chensniper.weebly.com/uploads/1/4/0/0/14000552/1351099505.jpg");
+}
+.greyjoy{
+  top:2450px;
+  left:50px;
+  border-color: black;
+}
+.jpg.squid{
+  top:2450px;
+  left:800px;
+  background-image:url("https://data.whicdn.com/images/327755164/original.jpg?t=1552256878");
+  background-size:150%;
+}
+.martell{
+  top:2850px;
+  left:50px;
+  border-color: orange;
+}
+.jpg.sun{
+  top:2850px;
+  left:800px;
+  background-image: url("https://i.pinimg.com/originals/4e/e6/db/4ee6db91c1384e664109dac9ce0df3a2.jpg");
+  background-size:170%;
+}
+.tyrell{
+  top:3250px;
+  left:50px;
+ border-color:darkgreen;
+}
+.rose{
+  top:3250px;
+  left:800px;
+  background-image:url("https://4.bp.blogspot.com/-etFcn_f9IWc/UdhnfWM9QCI/AAAAAAAAAoQ/nfhIP3lUX8A/s1600/juego-de-tronos-casa-tyrell.jpg");
+  background-size:150%;
+}
+.people{
+  position:absolute;
+  top:5980px;
+  width:100%;
+  height: 650px;
+  background-image:url("https://i0.wp.com/4.bp.blogspot.com/-iffPI9_A0-Y/XDpaMeMjoHI/AAAAAAAAA4o/uxntOBCmQq0--7rShR-LsN4gwy-Giy4UwCLcBGAs/s1600/IMG_20190113_025017_686.jpg?ssl=1");
+  background-size:100%;
+  background-position:center;
+}
+#div3{
+  position: absolute;
+  top:5820px;
+}
+.three{
+  position:absolute;
+  top:6680px;
+  left:300px;
+  width:70%;
+  height: 700px;
+}
+.title3{
+  position:absolute;
+  font-size:30px;
+  font-family:微軟正黑體;
+  font-weight:bold;
+}
+.home{
+  top:50px;
+  left:50px;
+   border:solid;
+  border-width: 0 0 3px 0;
+   position:absolute;
+  height:70px;
+  width:700px; 
+   font-family: 'Noto Sans TC', sans-serif;
+  line-height:3;
+  font-size:28px;
+}
+.Stark{
+  border-color:silver;
+  background: silver;
+}
+.N {
+  position:absolute;
+  top:120px;
+  left:50px;
+  width:700px;
+  height:400px;
+    font-family: 'Noto Sans TC', sans-serif;
+  line-height:3;
+  font-size:20px;
+  border:dashed;
+  border-color:#cacbcf;
+  border-width:0 0 3px 0;
+}
+.name{
+  font-family: 'Noto Sans TC', sans-serif;
+  line-height:3;
+  font-size:24px;
+  font-width:80px;
+}
+.first{
+  top:120px;
+  left:800px;
+  background-image:url("https://wordfantasies.com/wp-content/uploads/2018/03/Ned-Stark-Game-Thrones.jpg");
+  background-size:180%;
+}
+.Cat{
+  top:520px;
+}
+.jpg.second{
+  top:520px;
+  left:800px;
+  background-image:url("https://2.bp.blogspot.com/-Xps80sDIY2U/VOYEa73WR1I/AAAAAAAABpY/OnJXgmMduxw/s1600/Catelyn_Starke_Cover.jpg");
+  background-size:150%; 
+}
+.Robb{
+  top:920px;
+}
+.jpg.thrid{
+  top:920px;
+  left:800px;
+  background-image:url("https://i.ytimg.com/vi/_hdwPeh_45w/maxresdefault.jpg");
+  background-size:180%;
+}
+.Sansa{
+  top:1320px;
+}
+.four{
+  top:1320px;
+  left:800px;
+  background-image:url("https://www.cup.com.hk/wp-content/uploads/2019/04/game-of-thrones-spoils-od-war-sansa-stark-10-e1554724964134.jpg");
+  background-size:180%;
+}
+.Arya{
+  top:1720px;
+}
+.jpg.five{
+  top:1720px;
+  left:800px;
+  background-image:url("https://images.hdqwalls.com/wallpapers/arya-stark-game-of-thrones-season-8-photoshoot-5p.jpg");
+  background-size:180%;
+}
+.Bran{
+  top:2120px;
+}
+.jpg.six{
+  top:2120px;
+  left:800px;
+  background-image:url("https://popbee.com/image/2019/04/bran-stark-got.jpg");
+  background-size:150%;
+}
+.Rickon{
+  top:2520px;
+}
+.jpg.seven{
+  top:2520px;
+  left:800px;
+  background-image:url("https://livedoor.blogimg.jp/god2ch/imgs/d/3/d391d460.jpg");
+  background-size:180%;
+}
+.Snow{
+  top:2920px;
+}
+.jpg.eight{
+  top:2920px;
+  left:800px;
+  background-image:url("https://resource01-proxy.ulifestyle.com.hk/res/v3/image/content/1880000/1881576/117816_IKEA_00_1024.jpg");
+  background-size:150%;
+}
+.Lannister{
+  top:3370px;
+  border-color:gold;
+  background: gold;
+}
+.Tywin{
+  border-color:gold;
+  top:3440px;
+}
+.jpg.nine{
+  top:3440px;
+  left:800px;
+  background-image:url("https://postlapsarian.files.wordpress.com/2015/04/tywin.jpg");
+  background-size:180%;
+}
+.Cersei{
+  border-color:gold;
+  top:3840px;
+}
+.jpg.ten{
+  top:3840px;
+  left: 800px;
+  background-image:url("https://media1.popsugar-assets.com/files/thumbor/9kq3WuxRzuc_MT3EAqhpURrUX-8/fit-in/2048xorig/filters:format_auto-!!-:strip_icc-!!-/2015/04/27/878/n/1922283/2143ab49_gameofthrones15_71/i/Cersei-Lannister-Played-Lena-Headey.jpg");
+background-size:150%;
+}
+.Jaime{
+  border-color:gold;
+  top:4240px;
+}
+.jpg.eleven{
+  top:4240px;
+  left:800px;
+  background-image:url("https://www.denofgeek.com/wp-content/uploads/2019/04/jaime_lannister.jpg");
+  background-size:180%;
+}
+.Tyrion{
+  top:4640px;
+  border-color:gold;
+}
+.jpg.twelve{
+  top:4640px;
+  left:800px;
+  background-image:url("https://i.insider.com/59a5dd9cb065da49008b4878?width=1100&format=jpeg&auto=webp");
+background-size:140%;
+}
+.Baratheon{
+  top:5090px;
+  border-color:yellow;
+  background: yellow;
+}
+.Robert{
+  top:5160px;
+  border-color:yellow;
+}
+.jpg.thirteen{
+  top:5160px;
+  left:800px;
+  border-color: yellow;
+  background-image:url("https://static1.srcdn.com/wordpress/wp-content/uploads/2020/01/Robert-Baratheon-Winning-that-War.jpg");
+  background-size:200%;
+}
+.Joffrey{
+  top:5560px;
+  border-color:yellow;  
+}
+.jpg.forteen{
+  top:5560px;
+  left: 800px;
+  background-image:url("https://news.toyark.com/wp-content/uploads/sites/4/2019/04/ThreeZero-Joffrey-Preview-928x483.jpg");
+background-size:200%;
+}
+.Myrcella{
+  top:5960px;
+  border-color:yellow;
+}
+.jpg.fifteen{
+  top:5960px;
+  left:800px;
+  background-image:url("https://i.pinimg.com/736x/f6/5d/c4/f65dc49fca5c1e718987f12798fa83c5.jpg");
+  background-size:140%;
+}
+.Tommen{
+  top:6360px;
+  border-color:yellow;
+}
+.jpg.sixteen{
+  top:6360px;
+  left:800px;
+  background-image:url("https://img.cinemablend.com/quill/3/8/8/1/f/4/3881f4505f683a16e868e9b83d9dc43e122a74cc.png");
+  background-size:200%;
+}
+.Targaryen{
+  top:6810px;
+  border-color:darkred;
+  background: darkred;
+}
+.Viserys{
+  top:6880px;
+  border-color:darkred;
+}
+.jpg.seventeen{
+  top:6880px;
+  left:800px;
+  background-image:url("https://i.pinimg.com/originals/96/e9/f2/96e9f273c593b73525c0da01f51de6dc.png");
+  background-size:100%;
+}
+.Daenerys{
+  top:7280px;
+  border-color:darkred;
+}
+.jpg.eighteen{
+  top:7280px;
+  left:800px;
+  background-image:url("https://ugc-01.cafemomstatic.com/gen/full/2012/09/26/12/91/wk/povlyqof8k.jpg");
+  background-size:180%;
+}
+.last{
+  position:absolute;
+  top:15180px;
+  left:300px;
+  width:1200px;
+  height: 500px;
+  background: #fff;
+  border:solid;
+  border-width:3px 0 3px 0;
+  border-color:black;
+
+}
+.mask{
+  position:absolute;
+  top:15180px;
+ width:300px;
+  height:500px;
+  background: white;
+  z-index:2;
+}
+.mask.o{
+  width:290px;
+  left:1500px;
+}
+.jpeg{
+  position:absolute;
+  top:15230px;
+  background: #888;
+  height:400px;
+  width:250px;
+  background-position:center;
+}
+.jpeg.p1{
+  left:340px;
+  background-image:url("https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/game-of-thrones-season-one-poster-1559229542.jpg?crop=1xw:1xh;center,top&resize=480:*");
+  background-size:120%;
+  animation-name:a1;
+    animation-duration:20s;
+  animation-iteration-count: infinite;
+
+}
+.jpeg.p2{
+  left:630px;
+  background: url("https://vignette.wikia.nocookie.net/asoiaf/images/6/6b/GoT_Season_2.jpg/revision/latest/scale-to-width-down/2000?cb=20120324061629&path-prefix=zh");
+  background-size:110%;
+    animation-name:a2;
+    animation-duration:20s;
+  animation-iteration-count: infinite;
+
+}
+.jpeg.p3{
+  left:920px;
+  background: url("https://i.pinimg.com/originals/2c/36/7b/2c367bcb1954ce68538280a76f714ec3.jpg");
+  background-size:110%;
+    animation-name:a3;
+    animation-duration:20s;
+  animation-iteration-count: infinite;
+ 
+}
+.jpeg.p4{
+  left:1210px;
+  background: url("https://i.pinimg.com/originals/c6/6c/d7/c66cd73424aaed1733fa8c72db4c469e.jpg");
+  background-size:110%;
+    animation-name:a4;
+    animation-duration:20s;
+  animation-iteration-count: infinite;
+
+}
+.jpeg.p5{
+  left:1500px;
+  background: url("https://vignette.wikia.nocookie.net/asoiaf/images/0/0d/Gameofthrones-season5_poster.jpg/revision/latest/scale-to-width-down/284?cb=20150316114057&path-prefix=zh");
+  background-size:110%;
+  animation-name:a5;
+    animation-duration:20s;
+  animation-iteration-count: infinite;
+
+}
+
+.jpeg.p6{
+  left:1500px;
+  background: url("https://images.chinatimes.com/newsphoto/2016-02-27/900/20160227003698.jpg");
+  background-size:110%;
+    animation-name:a6;
+    animation-duration:20s;
+  animation-iteration-count: infinite;
+
+}
+.jpeg.p7{
+  left:1500px;
+  background: url("https://vignette.wikia.nocookie.net/gameofthrones/images/9/93/Got-s7-key-art.jpg/revision/latest/scale-to-width-down/284?cb=20170523174752");
+  background-size:110%;
+  animation-name:a7;
+    animation-duration:20s;
+  animation-iteration-count: infinite;
+
+}
+.jpeg.p8{
+  left:1500px;
+  background: url("https://www.voguehk.com/media/2019/04/GOTSeason8-885x1280.jpg");
+  background-size:110%;
+    animation-name:a8;
+    animation-duration:20s;
+  animation-iteration-count: infinite;
+
+}
+@keyframes a1{
+  10%{
+    transform:translateX(0);
+  }
+  20%{
+     transform:translateX(-290px);
+  }
+   100%{
+     transform:translateX(-290px);
+  }
+  
+}
+@keyframes a2{
+  10%{
+     transform:translateX(0);
+  }
+  20%{
+    transform:translateX(-290px);
+  }
+  30%{
+     transform:translateX(-290px);
+  }
+  40%{
+     transform:translateX(-580px);
+  }
+   100%{
+     transform:translateX(-580px);
+  }
+}
+@keyframes a3{
+  10%{
+     transform:translateX(0);
+  }
+  20%{
+     transform:translateX(-290px);
+  }
+  30%{
+     transform:translateX(-290px);
+  }
+  40%{
+    transform:translateX(-580px);
+  }
+  50%{
+     transform:translateX(-580px);
+  }
+  60%{
+     transform:translateX(-870px);
+  }
+   100%{
+     transform:translateX(-870px);
+  }
+}
+@keyframes a4{
+  10%{
+     transform:translateX(0);
+  }
+  20%{
+    transform:translateX(-290px);
+  }
+  30%{
+     transform:translateX(-290px);
+  }
+  40%{
+     transform:translateX(-580px);
+  }
+  50%{
+     transform:translateX(-580px);
+  }
+  60%{
+     transform:translateX(-870px);
+  }
+  70%{
+      transform:translateX(-870px);
+  }
+  80%{
+    transform:translateX(-1160px);
+  }
+   100%{
+     transform:translateX(-1160px);
+  }
+}
+@keyframes a5{
+  10%{
+     transform:translateX(0);
+  }
+  20%{
+     transform:translateX(-290px);
+  }
+  30%{
+    transform:translateX(-290px);
+  }
+  40%{
+     transform:translateX(-580px);
+  }
+  50%{
+   transform:translateX(-580px);
+  }
+  60%{
+     transform:translateX(-870px);
+  }
+  70%{
+    transform:translateX(-870px);
+  }
+  80%{
+    transform:translateX(-1160px);
+  }
+   100%{
+     transform:translateX(-1160px);
+  }
+}
+@keyframes a6{
+  30%{
+    transform:translateX(0);
+  }
+  40%{
+   transform:translateX(-290px);
+  }
+  50%{
+     transform:translateX(-290px);
+  }
+  60%{
+    transform:translateX(-580px);
+  }
+  70%{
+    transform:translateX(-580px);
+  }
+  80%{
+     transform:translateX(-870px);
+  }
+  100%{
+     transform:translateX(-870px);
+  }
+}
+@keyframes a7{
+  50%{
+     transform:translateX(0);
+  }
+  60%{
+    transform:translateX(-290px);
+  }
+  70%{
+    transform:translateX(-290px);
+  }
+  80%{
+    transform:translateX(-580px);
+  }
+  100%{
+     transform:translateX(-580px);
+  }
+}
+  @keyframes a8{
+  70%{
+    transform:translateX(0);
+  }
+  80%{
+     transform:translateX(-290px);
+  }
+   100%{
+     transform:translateX(-290px);
+  }
+}
+.movie{
+  position:absolute;
+  top:14400px;
+  width:100%;
+  height: 650px;
+  background-image:url("https://miro.medium.com/max/6400/1*hXIdgSvGa70Nw4sdPm27SA.jpeg");
+  background-size:90%;
+  background-position:center;
+}
+.title4{
+  position:absolute;
+  top:15090px;
+    left:300px;
+  font-size:30px;
+  font-family:微軟正黑體;
+  font-weight:bold;
+}
+.poster{
+  position:absolute;
+  top:15140px;
+    left:350px;
+  font-size:26px;
+  font-family:微軟正黑體;
+  font-weight:bold;
+}
+.trailer{
+  position:absolute;
+  top:15720px;
+    left:350px;
+  font-size:26px;
+  font-family:微軟正黑體;
+  font-weight:bold;
+}
+iframe{
+  position:absolute;
+  top:15770px;
+  left:600px;
+}
